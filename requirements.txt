@@ -1,0 +1,9 @@
+groq
+networkx
+chromadb
+sentence-transformers
+pandas
+matplotlib
+seaborn
+python-dotenv
+tqdm
