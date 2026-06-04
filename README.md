@@ -1,4 +1,4 @@
-# Memory Compression for Agents 🧠
+# Memory Compression for Agents
 
 An experimental, research-grade benchmarking framework that answers a core question in LLM architecture: **How much memory does an AI agent actually need?**
 
@@ -6,7 +6,7 @@ This framework benchmarks four different Long-Term Agent Memory architectures ac
 
 ---
 
-## 🏗️ The Four Memory Architectures
+## The Four Memory Architectures
 
 1. **Full Context (`FullMemory`)**: The naive baseline. Passes the entire conversation history into the LLM prompt.
 2. **Summarized Context (`SummaryMemory`)**: A sliding window approach. Uses a rolling LLM-generated summary to compress older context while keeping the 5 most recent turns verbatim.
@@ -15,7 +15,7 @@ This framework benchmarks four different Long-Term Agent Memory architectures ac
 
 ---
 
-## 📊 The Benchmark Dataset
+## The Benchmark Dataset
 
 The framework includes a synthetic data generator (`data/generate.py`) that constructs a **100-turn chat** containing various facts. To rigorously stress-test memory extraction and retention, the dataset is loaded with:
 - **Simple Facts**: Standard entity details (e.g., Name, Age).
@@ -27,7 +27,7 @@ An LLM-as-a-judge (`eval/judge.py`) scores the agent's answers against ground tr
 
 ---
 
-## 🧪 Experiments & Findings
+## Experiments & Findings
 
 We ran two distinct phases of evaluations to test the impact of model intelligence and prompt engineering on memory compression. 
 
@@ -57,7 +57,7 @@ Here is the final trade-off matrix produced by the 70B evaluation run (Accuracy 
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 1. Clone the repository and setup the virtual environment:
    ```bash
@@ -73,7 +73,7 @@ Here is the final trade-off matrix produced by the 70B evaluation run (Accuracy 
    GROQ_API_KEY=your_api_key_here
    ```
 
-## 🏃 Running the Benchmark
+## Running the Benchmark
 
 1. **Generate the Dataset**:
    ```bash
