@@ -2,8 +2,8 @@ import time
 from agent.llm import call_llm
 from memory.base import BaseMemory
 
-PRICE_PROMPT_1M = 0.59
-PRICE_COMPLETION_1M = 0.79
+PRICE_PROMPT_1M = 0.05
+PRICE_COMPLETION_1M = 0.08
 
 def calculate_cost(prompt_tokens: int, completion_tokens: int) -> float:
     return (prompt_tokens / 1_000_000.0) * PRICE_PROMPT_1M + (completion_tokens / 1_000_000.0) * PRICE_COMPLETION_1M

@@ -27,8 +27,8 @@ def run_benchmark():
     
     results = []
     
-    # 3 runs per strategy
-    for run in range(1, 4):
+    # 1 run per strategy (deterministic eval with temp=0)
+    for run in range(1, 2):
         for strat_name, MemoryClass in strategies.items():
             print(f"\n=== Running {strat_name} (Run {run}) ===")
             memory_instance = MemoryClass()

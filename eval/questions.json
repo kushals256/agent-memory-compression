@@ -1,0 +1,102 @@
+[
+  {
+    "question_id": "q1",
+    "question": "What is the user's name?",
+    "ground_truth": "Alex"
+  },
+  {
+    "question_id": "q2",
+    "question": "How old is the user?",
+    "ground_truth": "28"
+  },
+  {
+    "question_id": "q3",
+    "question": "Where did the user grow up?",
+    "ground_truth": "Oakhaven"
+  },
+  {
+    "question_id": "q4",
+    "question": "What is the user's favorite color?",
+    "ground_truth": "red"
+  },
+  {
+    "question_id": "q5",
+    "question": "When is the user's dentist appointment?",
+    "ground_truth": "Friday at 2 PM"
+  },
+  {
+    "question_id": "q6",
+    "question": "What is the user's favorite food?",
+    "ground_truth": "pizza"
+  },
+  {
+    "question_id": "q7",
+    "question": "How many siblings does the user have?",
+    "ground_truth": "At least 2 (a brother and a sister)"
+  },
+  {
+    "question_id": "q8",
+    "question": "What is the name of the user's pet?",
+    "ground_truth": "Max"
+  },
+  {
+    "question_id": "q9",
+    "question": "Where does the user work?",
+    "ground_truth": "TechCorp"
+  },
+  {
+    "question_id": "q10",
+    "question": "What is the user's profession?",
+    "ground_truth": "Software engineer"
+  },
+  {
+    "question_id": "q11",
+    "question": "Where is the user going on vacation?",
+    "ground_truth": "Japan"
+  },
+  {
+    "question_id": "q12",
+    "question": "What kind of car does the user drive?",
+    "ground_truth": "A silver Toyota Camry"
+  },
+  {
+    "question_id": "q13",
+    "question": "What is the user allergic to?",
+    "ground_truth": "Peanuts"
+  },
+  {
+    "question_id": "q14",
+    "question": "What is the user's favorite movie?",
+    "ground_truth": "The Matrix"
+  },
+  {
+    "question_id": "q15",
+    "question": "What time does the user usually wake up?",
+    "ground_truth": "6:30 AM"
+  },
+  {
+    "question_id": "q16",
+    "question": "Where did the user go to college?",
+    "ground_truth": "University of Michigan"
+  },
+  {
+    "question_id": "q17",
+    "question": "What is the user's mother's maiden name?",
+    "ground_truth": "Smith"
+  },
+  {
+    "question_id": "q18",
+    "question": "What new pet is the user considering getting?",
+    "ground_truth": "A cat"
+  },
+  {
+    "question_id": "q19",
+    "question": "What instrument is the user learning to play?",
+    "ground_truth": "Guitar"
+  },
+  {
+    "question_id": "q20",
+    "question": "What instrument is the user currently focusing on learning?",
+    "ground_truth": "Piano"
+  }
+]

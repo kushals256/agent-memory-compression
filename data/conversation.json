@@ -1,0 +1,599 @@
+[
+  {
+    "turn": 1,
+    "role": "user",
+    "content": "Hi, my name is Alex and I'm 28 years old.",
+    "hidden_facts": [
+      "User's name is Alex",
+      "User is 28 years old"
+    ]
+  },
+  {
+    "turn": 2,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 2)"
+  },
+  {
+    "turn": 3,
+    "role": "user",
+    "content": "I grew up in a small town called Oakhaven.",
+    "hidden_facts": [
+      "User grew up in Oakhaven"
+    ]
+  },
+  {
+    "turn": 4,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 4)"
+  },
+  {
+    "turn": 5,
+    "role": "user",
+    "content": "I have a dog named Max.",
+    "hidden_facts": [
+      "User has a dog named Max"
+    ]
+  },
+  {
+    "turn": 6,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 6)"
+  },
+  {
+    "turn": 7,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 7)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 8,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 8)"
+  },
+  {
+    "turn": 9,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 9)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 10,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 10)"
+  },
+  {
+    "turn": 11,
+    "role": "user",
+    "content": "My favorite color is blue.",
+    "hidden_facts": [
+      "User's favorite color is blue"
+    ]
+  },
+  {
+    "turn": 12,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 12)"
+  },
+  {
+    "turn": 13,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 13)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 14,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 14)"
+  },
+  {
+    "turn": 15,
+    "role": "user",
+    "content": "I have a dentist appointment on Friday at 2 PM.",
+    "hidden_facts": [
+      "User has a dentist appointment on Friday at 2 PM"
+    ]
+  },
+  {
+    "turn": 16,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 16)"
+  },
+  {
+    "turn": 17,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 17)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 18,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 18)"
+  },
+  {
+    "turn": 19,
+    "role": "user",
+    "content": "I work as a software engineer at TechCorp.",
+    "hidden_facts": [
+      "User is a software engineer",
+      "User works at TechCorp"
+    ]
+  },
+  {
+    "turn": 20,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 20)"
+  },
+  {
+    "turn": 21,
+    "role": "user",
+    "content": "I'm learning how to play the guitar.",
+    "hidden_facts": [
+      "User is learning guitar"
+    ]
+  },
+  {
+    "turn": 22,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 22)"
+  },
+  {
+    "turn": 23,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 23)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 24,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 24)"
+  },
+  {
+    "turn": 25,
+    "role": "user",
+    "content": "I love eating pizza, it's the best food.",
+    "hidden_facts": [
+      "User loves pizza"
+    ]
+  },
+  {
+    "turn": 26,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 26)"
+  },
+  {
+    "turn": 27,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 27)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 28,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 28)"
+  },
+  {
+    "turn": 29,
+    "role": "user",
+    "content": "I'm planning a vacation to Japan next month.",
+    "hidden_facts": [
+      "User is going to Japan next month"
+    ]
+  },
+  {
+    "turn": 30,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 30)"
+  },
+  {
+    "turn": 31,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 31)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 32,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 32)"
+  },
+  {
+    "turn": 33,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 33)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 34,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 34)"
+  },
+  {
+    "turn": 35,
+    "role": "user",
+    "content": "My brother and sister are coming over later.",
+    "hidden_facts": [
+      "User has at least one brother and one sister (2 siblings)"
+    ]
+  },
+  {
+    "turn": 36,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 36)"
+  },
+  {
+    "turn": 37,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 37)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 38,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 38)"
+  },
+  {
+    "turn": 39,
+    "role": "user",
+    "content": "I drive a silver Toyota Camry.",
+    "hidden_facts": [
+      "User drives a silver Toyota Camry"
+    ]
+  },
+  {
+    "turn": 40,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 40)"
+  },
+  {
+    "turn": 41,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 41)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 42,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 42)"
+  },
+  {
+    "turn": 43,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 43)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 44,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 44)"
+  },
+  {
+    "turn": 45,
+    "role": "user",
+    "content": "I'm craving pizza again, it's definitely my favorite food.",
+    "hidden_facts": [
+      "User loves pizza"
+    ]
+  },
+  {
+    "turn": 46,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 46)"
+  },
+  {
+    "turn": 47,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 47)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 48,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 48)"
+  },
+  {
+    "turn": 49,
+    "role": "user",
+    "content": "I'm allergic to peanuts.",
+    "hidden_facts": [
+      "User is allergic to peanuts"
+    ]
+  },
+  {
+    "turn": 50,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 50)"
+  },
+  {
+    "turn": 51,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 51)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 52,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 52)"
+  },
+  {
+    "turn": 53,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 53)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 54,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 54)"
+  },
+  {
+    "turn": 55,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 55)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 56,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 56)"
+  },
+  {
+    "turn": 57,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 57)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 58,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 58)"
+  },
+  {
+    "turn": 59,
+    "role": "user",
+    "content": "My favorite movie is The Matrix.",
+    "hidden_facts": [
+      "User's favorite movie is The Matrix"
+    ]
+  },
+  {
+    "turn": 60,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 60)"
+  },
+  {
+    "turn": 61,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 61)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 62,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 62)"
+  },
+  {
+    "turn": 63,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 63)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 64,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 64)"
+  },
+  {
+    "turn": 65,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 65)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 66,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 66)"
+  },
+  {
+    "turn": 67,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 67)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 68,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 68)"
+  },
+  {
+    "turn": 69,
+    "role": "user",
+    "content": "I usually wake up around 6:30 AM to go for a run.",
+    "hidden_facts": [
+      "User wakes up at 6:30 AM",
+      "User likes running"
+    ]
+  },
+  {
+    "turn": 70,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 70)"
+  },
+  {
+    "turn": 71,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 71)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 72,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 72)"
+  },
+  {
+    "turn": 73,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 73)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 74,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 74)"
+  },
+  {
+    "turn": 75,
+    "role": "user",
+    "content": "Actually, I changed my mind about colors. My favorite color is red now.",
+    "hidden_facts": [
+      "User's favorite color is red"
+    ]
+  },
+  {
+    "turn": 76,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 76)"
+  },
+  {
+    "turn": 77,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 77)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 78,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 78)"
+  },
+  {
+    "turn": 79,
+    "role": "user",
+    "content": "I studied computer science at the University of Michigan.",
+    "hidden_facts": [
+      "User studied at University of Michigan"
+    ]
+  },
+  {
+    "turn": 80,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 80)"
+  },
+  {
+    "turn": 81,
+    "role": "user",
+    "content": "Actually, I stopped learning guitar. I am focusing on the piano now.",
+    "hidden_facts": [
+      "User is focusing on piano, stopped guitar"
+    ]
+  },
+  {
+    "turn": 82,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 82)"
+  },
+  {
+    "turn": 83,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 83)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 84,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 84)"
+  },
+  {
+    "turn": 85,
+    "role": "user",
+    "content": "Did I mention I love pizza?",
+    "hidden_facts": [
+      "User loves pizza"
+    ]
+  },
+  {
+    "turn": 86,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 86)"
+  },
+  {
+    "turn": 87,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 87)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 88,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 88)"
+  },
+  {
+    "turn": 89,
+    "role": "user",
+    "content": "I have a peanut allergy, so I need to be careful with Thai food.",
+    "hidden_facts": [
+      "User is allergic to peanuts"
+    ]
+  },
+  {
+    "turn": 90,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 90)"
+  },
+  {
+    "turn": 91,
+    "role": "user",
+    "content": "My mother's maiden name is Smith.",
+    "hidden_facts": [
+      "User's mother's maiden name is Smith"
+    ]
+  },
+  {
+    "turn": 92,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 92)"
+  },
+  {
+    "turn": 93,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 93)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 94,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 94)"
+  },
+  {
+    "turn": 95,
+    "role": "user",
+    "content": "Can you remind me of that place I grew up in? It was Oak something.",
+    "hidden_facts": []
+  },
+  {
+    "turn": 96,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 96)"
+  },
+  {
+    "turn": 97,
+    "role": "user",
+    "content": "I'm thinking of getting a cat, but Max might not like it.",
+    "hidden_facts": [
+      "User is considering getting a cat"
+    ]
+  },
+  {
+    "turn": 98,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 98)"
+  },
+  {
+    "turn": 99,
+    "role": "user",
+    "content": "Can we talk about something else? (filler 99)",
+    "hidden_facts": []
+  },
+  {
+    "turn": 100,
+    "role": "assistant",
+    "content": "Sure, what's on your mind? (filler 100)"
+  }
+]
