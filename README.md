@@ -49,9 +49,13 @@ To fix the edge cases, we upgraded the LLM engine to the state-of-the-art **`lla
 
 ### Conclusion Dashboard
 
-Here is the final trade-off matrix produced by the 70B evaluation run (Accuracy vs. Latency vs. Cost):
+Here is the final trade-off matrix and accuracy analysis produced by the deterministic 70B evaluation run:
 
-![Results Dashboard](./results/dashboard.png)
+#### 1. Performance Trade-off Matrix (Accuracy vs. Latency vs. Cost)
+![Performance Trade-off Dashboard](./results/dashboard_run1.png)
+
+#### 2. Per-Question Accuracy Heatmap by Strategy
+![Per-Question Accuracy Heatmap](./results/accuracy_heatmap.png)
 
 **Key Takeaway**: Both **RAG** and **Knowledge Graphs** can successfully match the accuracy of dumping Full Context into the prompt, but at a *fraction* of the cost and latency. Summarization, while extremely cheap, risks losing critical intermediary facts.
 
