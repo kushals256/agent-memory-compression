@@ -41,7 +41,7 @@ bars = ax.bar(strategy_labels, [c * 1000 for c in costs], color=colors, edgecolo
 ax.set_title('Total Cost per 20-Question Run', fontsize=12, fontweight='bold')
 ax.set_ylabel('Cost (mUSD, x10⁻³)')
 for bar, val in zip(bars, costs):
-    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() * 1000 + 0.2, f'${val:.4f}', ha='center', va='bottom', fontsize=10, fontweight='bold')
+    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.2, f'${val:.4f}', ha='center', va='bottom', fontsize=10, fontweight='bold')
 
 # --- Heatmap ---
 ax = axes[1, 1]
