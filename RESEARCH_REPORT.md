@@ -327,66 +327,12 @@ All four strategies scored 0.0 on Q19 ("What instrument is the user learning to 
 | Prompt tokens | $0.59 / 1M tokens |
 | Completion tokens | $0.79 / 1M tokens |
 
-### Directory Structure
-
-```
-agent-memory-compression/
-├── .env                        # GROQ_API_KEY
-├── requirements.txt
-├── data/
-│   ├── generate.py             # Synthetic dataset generator
-│   └── conversation.json       # 100-turn conversation output
-├── memory/
-│   ├── base.py                 # Abstract BaseMemory class
-│   ├── full_memory.py          # Strategy 1: Full context
-│   ├── summary_memory.py       # Strategy 2: Rolling LLM summary
-│   ├── graph_memory.py         # Strategy 3: Knowledge graph (networkx)
-│   └── rag_memory.py           # Strategy 4: Vector RAG (ChromaDB)
-├── agent/
-│   ├── llm.py                  # Groq API client wrapper
-│   └── engine.py               # Agent orchestrator
-├── eval/
-│   ├── questions.json          # 20 benchmark Q&A pairs
-│   └── judge.py                # LLM-as-judge scorer
-├── benchmark.py                # Main evaluation runner
-├── scripts/
-│   ├── visualize.py            # Dashboard generator
-│   ├── visualize_run1.py       # Clean Run 1 dashboard generator
-│   └── analyze.py              # Statistical analysis script
-└── results/
-    ├── results.csv             # Raw benchmark output
-    ├── dashboard_run1.png      # Trade-off dashboard
-    └── accuracy_heatmap.png    # Per-question accuracy matrix
-```
-
-### Commands to Reproduce
-
-```bash
-# Setup
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-# Generate dataset
-python data/generate.py
-
-# Run benchmark
-python benchmark.py
-
-# Generate visualizations
-python scripts/visualize_run1.py
-
-# Run analysis
-python scripts/analyze.py
-```
-
----
 
 ## 15. Resources
 
-- **GitHub Repository**: [agent-memory-compression](https://github.com/kushalsacharya/agent-memory-compression)
-- **Dataset**: Auto-generated via `data/generate.py` (100-turn synthetic conversation)
-- **Benchmark Outputs**: `results/results.csv`
+- **GitHub Repository**: [agent-memory-compression](https://github.com/kushals256/agent-memory-compression)
+- **Dataset**: Auto-generated via `https://github.com/kushals256/agent-memory-compression/blob/main/data/generate.py` (100-turn synthetic conversation)
+- **Benchmark Outputs**: `https://github.com/kushals256/agent-memory-compression/blob/main/results/results.csv`
 - **Dashboard**: `results/dashboard_run1.png`
 - **Per-Question Heatmap**: `results/accuracy_heatmap.png`
 
