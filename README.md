@@ -51,7 +51,7 @@ To fix the edge cases, we upgraded the LLM engine to the state-of-the-art **`lla
 
 Here is the final trade-off matrix produced by the 70B evaluation run (Accuracy vs. Latency vs. Cost):
 
-![Results Dashboard](results/dashboard.png)
+![Results Dashboard](./results/dashboard.png)
 
 **Key Takeaway**: Both **RAG** and **Knowledge Graphs** can successfully match the accuracy of dumping Full Context into the prompt, but at a *fraction* of the cost and latency. Summarization, while extremely cheap, risks losing critical intermediary facts.
 
@@ -83,9 +83,12 @@ Here is the final trade-off matrix produced by the 70B evaluation run (Accuracy 
    ```bash
    python benchmark.py
    ```
-   *Note: This executes 3 runs for each of the 4 memory strategies. Depending on rate limits, this can take 30-45 minutes.*
+   *Note: This executes 1 deterministic run (temperature=0) for each of the 4 memory strategies to prevent rate limit exhaustion.*
 3. **Visualize Results**:
    ```bash
-   python visualize.py
+   python scripts/visualize.py
+   # or for the clean Run 1 specific dashboards:
+   python scripts/visualize_run1.py
+   python scripts/analyze.py
    ```
-   *This outputs the `results/dashboard.png`.*
+   *This outputs the dashboards to the `results/` folder.*

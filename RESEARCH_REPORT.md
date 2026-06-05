@@ -173,11 +173,11 @@ All results reported below are from a single deterministic evaluation run. Becau
 
 ### 7.4 Combined Performance Dashboard
 
-![Trade-off Dashboard](results/dashboard_run1.png)
+![Trade-off Dashboard](./results/dashboard_run1.png)
 
 ### 7.5 Per-Question Accuracy Heatmap
 
-![Per-Question Accuracy Heatmap](results/accuracy_heatmap.png)
+![Per-Question Accuracy Heatmap](./results/accuracy_heatmap.png)
 
 ---
 
@@ -349,9 +349,10 @@ agent-memory-compression/
 │   ├── questions.json          # 20 benchmark Q&A pairs
 │   └── judge.py                # LLM-as-judge scorer
 ├── benchmark.py                # Main evaluation runner
-├── visualize.py                # Dashboard generator
-├── visualize_run1.py           # Clean Run 1 dashboard generator
-├── analyze.py                  # Statistical analysis script
+├── scripts/
+│   ├── visualize.py            # Dashboard generator
+│   ├── visualize_run1.py       # Clean Run 1 dashboard generator
+│   └── analyze.py              # Statistical analysis script
 └── results/
     ├── results.csv             # Raw benchmark output
     ├── dashboard_run1.png      # Trade-off dashboard
@@ -373,10 +374,10 @@ python data/generate.py
 python benchmark.py
 
 # Generate visualizations
-python visualize_run1.py
+python scripts/visualize_run1.py
 
 # Run analysis
-python analyze.py
+python scripts/analyze.py
 ```
 
 ---
